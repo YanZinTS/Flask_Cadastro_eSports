@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ Titulo }}</title>
+    <link rel="stylesheet" href="static/estilo.css">
+</head>
+<body>
+    <div>
+        <h1>{{ Titulo }}</h1>
+    </div>
+
+    {% for eSports in ListaJogadores %}
+
+        <div class="eSports-card">
+            <h2>Nome: {{ eSports.nome }}</h2>
+            <img src="static/esports.webp">
+            <p>Jogo de Interesse: {{ eSports.jogoInteresse }}</p>
+            <p>Posição/função no jogo: {{ eSports.funcaoJogo }} </p>
+            <p>Ranking: {{ eSports.ranking }}</p>
+        <br>
+        </div>
+
+    {% endfor %}
+
+</body>
+</html>

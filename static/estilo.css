@@ -1,0 +1,99 @@
+ body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .page-header {
+            background-color: #28a745;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .eSports-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 30px;
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box;
+            transition: transform 0.3s;
+        }
+
+        .eSports-card:hover {
+            transform: translateY(-5px);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 15px;
+            color: #28a745;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        input {
+            width: calc(100% - 20px);
+            padding: 15px;
+            margin-bottom: 25px;
+            box-sizing: border-box;
+            border: 2px solid #28a745;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #ffc107;
+            color: #333;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #d39e00;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #28a745;
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+
+        p {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        h2 {
+            color: #3498db;
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+
+        p {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
